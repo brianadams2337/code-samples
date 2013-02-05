@@ -1,0 +1,354 @@
+/* CSS Stylesheet */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	border-spacing: 0px;
+}
+
+html, body {
+	height: 100%;
+	font-family: "PT Sans", Arial, Verdana, "san-serif";
+	background-color: #353535;
+}
+
+h1 {
+	font-size: 24px;
+	margin: 10px;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#containerMain {
+	width: 100%;
+	margin: 0px;
+	padding: 50px 0px;
+	background-color: #FFFFFF;
+}
+
+#containerBody {
+	width: 1020px;
+	height: auto;
+	margin: 0px auto;
+	overflow: auto;
+}
+
+.sideBar {
+	width: 255px;
+	margin: 0px 25px 0px 0px;
+}
+
+.mainContent {
+	width: 740px;
+}
+
+.column {
+	width: 360px;
+}
+
+/* COLORS */
+.primary {
+	/* color: #862633; */
+	color: #ffffff;
+}
+
+.secondary {
+	/* color: #cf7f00; */
+	color: #ffffff;
+}
+
+.tertiary {
+	color: #0093b2;
+}
+
+/* CONTROL BOX */
+#controlBox {
+	margin: 30px 0px;
+	background-image: -webkit-linear-gradient(bottom, rgb(232,232,232) 60%, rgb(252,252,252) 100%);
+	border-radius: 14px 0px;
+	box-shadow: inset 2px 2px 0px #aaaaaa, inset 0px 0px 6px #c4c4c4;
+	padding: 20px 0px;
+}
+
+#controlBox a {
+	font-size: 12px;
+	color: #353535;
+	text-decoration: underline;
+	margin: 20px;
+}
+
+#advanced {
+	height: auto;
+	width: 100%;
+}
+
+#controlBox hr {
+	width: auto;
+	height: 1px;
+	background-color: #353535;
+	margin: 10px 20px;
+}
+
+/* NOTIFICATIONS */
+
+#notificationsContainer {
+	height: auto;
+	clear: both;
+	text-align: left;
+	font-size: 10px;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+/* name of each section within the search forms */
+label {
+	width: 100%;
+	height: 20px;
+	font-size: 12px;
+	color: #353535;
+	text-align: left;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	vertical-align: top; /* keeps label from dropping to the bottom if inputs require more than one line */
+}
+
+/* contains area for all input elements with each filter - does not include label */
+.formInputArea {
+	width: 700px; /* takes into account the 1px left and right margin put on inline-block elements */
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+}
+
+.formInputItem {
+	width: 110px;
+	float: left;
+	white-space: nowrap;
+	margin: 0px 5px 0px 0px;
+}
+
+input[type=search], input[type=text] {
+	width: 340px;
+}
+
+.formObject {
+	width: auto;
+	margin: 0px 20px;
+}
+
+.formObject:first-child {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	background-color: #FFFFFF;
+	margin: 0px 10px 0px 10px;
+}
+
+#controlBox button:first-child {
+	margin-top: 0px;
+}
+
+.formObject p {
+	color: #353535;
+	font-size: 10px;
+	margin: 0px 5px;
+	display: inline;
+}
+
+/* TABLE */
+
+table {
+}
+
+tr {
+	font-size: 12px;
+	color: #353535;
+}
+
+thead tr, #tableFooter {
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #353535;
+	font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #eeeeee;
+}
+
+tbody tr:hover, tbody tr.greenBG:hover {
+	background-color: #fefdc2;
+}
+
+td, th {
+	padding: 10px;
+	width: auto;
+	overflow: hidden;
+}
+
+tbody tr.greenBG {
+	background-color: #cfffcf;
+}
+
+.btnEditOptionsContainer {
+	white-space: nowrap;
+}
+
+/* TABLE NAV */
+
+#pageNav, #limitOptions {
+	width: auto;
+	margin: 10px 0px;
+	font-size: 10px;
+	color: #353535;
+}
+
+#pageNav a, #pageNav p, #limitOptions a {
+	width: auto;
+	min-width: 10px;
+	font-size: 10px;
+	margin: 0px ;
+	padding: 5px;
+	display: inline-block;
+	text-align: center;
+}
+
+a.active {
+	color: #353535;
+	text-decoration: none;
+}
+
+a.active:hover {
+	color: #56d756;
+}
+
+a.inactive {
+	color: #bbbbbb;
+	text-decoration: none;
+}
+
+a.inactive:hover {
+	cursor: default;
+}
+
+/* NAVIGATION */
+.panel {
+	width: 255px;
+	height: auto;
+	background-image: -webkit-linear-gradient(bottom, rgb(71,71,68) 60%, rgb(87,87,84) 100%);
+	margin: 0px 0px 15px 0px;
+	padding: 15px 0px;
+	color: #FFFFFF;
+	border-radius: 14px 0px;
+	box-shadow: inset 2px 2px 0px #505050, inset 0px 0px 6px #333333;
+}
+
+nav h1, nav h2, nav h3 {
+	margin: 0px 15px 0px 15px;
+}
+
+ul {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 10px 15px 10px 15px;
+}
+
+li {
+	margin: 0px 0px 5px 25px;
+}
+
+.btnAction {
+	height: 40px;
+	display: block;
+	background-color: #56d756;
+}
+
+.btnAction p {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px 15px 10px 80px;
+	color: #FFFFFF;
+}
+
+.left {
+	float: left;
+	text-align: left;
+}
+
+.right {
+	float: right;
+	text-align: right;
+}
+
+/*
+
+GENERIC COLUMN WIDTHS
+The document is broken up into 12 equally sized columns (85px each totaling 1020px total).
+The document is currently set up so that the sidebar is 3 columns wide and the content area is 9 columns wide.
+If you need to break up an area into equal width columns, use these classes.
+
+*/
+.col1 {
+	width: 85px; /* one column wide */
+}
+
+.col2 {
+	width: 170px; /* two column wide */
+}
+
+.col3 {
+	width: 255px; /* three column wide */
+}
+
+.col4 {
+	width: 340px; /* four column wide */
+}
+
+.col5 {
+	width: 425px; /* five column wide */
+}
+
+.col6 {
+	width: 510px; /* six column wide */
+}
+
+.col7 {
+	width: 595px; /* seven column wide */
+}
+
+.col8 {
+	width: 680px; /* eight column wide */
+}
+
+.col9 {
+	width: 765px; /* nine column wide */
+}
+
+.col10 {
+	width: 850px; /* ten column wide */
+}
+
+.col11 {
+	width: 935px; /* eleven column wide */
+}
+
+.col12 {
+	width: 1020px; /* twelve column wide */
+}

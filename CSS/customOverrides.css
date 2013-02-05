@@ -1,0 +1,40 @@
+/* CUSTOM CHECKBOXES - CSS3 - IE7/IE8 WILL HAVE DEFAULT BROWSER CHECKBOXES */
+input[type="checkbox"] {vertical-align: middle; position: relative; bottom: 0; margin: 0 2px 3px 0!important;}
+input[type="checkbox"]:enabled {vertical-align: middle; position: relative; bottom: 3px; margin: 0 2px 3px 0!important; position: absolute; left: -9999px;}
+input[type="checkbox"]:enabled + label {background: url(iconCheckbox.png) no-repeat 0 0; padding-left: 20px; margin: 0;}
+input[type="checkbox"]:enabled:active + label {background: url(iconCheckbox.png) no-repeat 0 -22px; padding-left: 20px; margin: 0;}
+input[type="checkbox"]:enabled:checked + label {background: url(iconCheckbox.png) no-repeat 0 -44px; padding-left: 20px; margin: 0;}
+input[type="checkbox"]:enabled:checked:active + label {background: url(iconCheckbox.png) no-repeat 0 -66px; padding-left: 20px; margin: 0;}
+
+
+/* CUSTOM RADIO BUTTONS - CROSS BROWSER */
+.BVFieldRadioContainer label {background: url(iconRadio.png) no-repeat 0 0px; padding-left: 20px; margin: 0;}
+.BVFieldRadioContainer label:active {background: url(iconRadio.png) no-repeat 0 -22px; padding-left: 20px; margin: 0;}
+.BVFieldRadioContainer label.BVSelected {background: url(iconRadio.png) no-repeat 0 -44px; padding-left: 20px; margin: 0;}
+.BVFieldRadioContainer label.BVSelected:active {background: url(iconRadio.png) no-repeat 0 -44px; padding-left: 20px; margin: 0;}
+
+
+/* VERTICAL ALIGNMENT - CROSS BROWSER */
+.BVUploadedImageThumbnail {width: 576px; height: 400px; background: #ededed; border: solid 7px #ffffff; box-shadow: 0px 1px 3px #cccccc; border-radius: 0; display: table-cell; vertical-align: middle; *display: block; *line-height: 400px; *text-align: center;} /* [badams] IE7 hack needed to replace the unsupported display table-cell and vertically align image */
+.BVUploadedImageThumbnail img {height: auto; width: auto; max-height: 400px; max-width: 576px; margin: 0px auto; display: block; *display: inline;} /* [badams] IE7 hack to allow vertical alignment of image */
+
+
+/* CUSTOM MEDIA UPLOAD BUTTONS */
+/* Image Upload */
+.BVSectionMediaUpload {min-height: 50px;}
+.BVModulePhotoUpload, .BVModuleVideoUpload {width: 350px;}
+.BVPhotoUploadWidget #BVVisiblePhotoUploadInputID, .BVVideoUploadWidget #BVVisibleVideoUploadInputID {-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); -moz-opacity: 0; -khtml-opacity: 0; opacity: 0; border: none; cursor: pointer; float: right; text-align: right; font-size: 90px; height: 27px; *width: 350px; *position: relative; *left: -47px;}
+/* Photo Upload */
+.BVPhotoUploadWidget form {background: url(imgBrowse.png) no-repeat 0 0; width: 350px; height: 27px; overflow: hidden;}
+.BVPhotoUploadWidget input.BVFileSubmit:disabled {background: url(imgUpload.png) no-repeat 0 0; position: absolute; width: 350px; height: 27px; cursor: pointer; text-indent: -9999px; border: none; padding: 0px; color: transparent; display: none;}
+.BVPhotoUploadWidget input.BVFileSubmit[disabled] {background: url(imgUpload.png) no-repeat 0 0; position: absolute; width: 350px; height: 27px; cursor: pointer; text-indent: -9999px; border: none; padding: 0px; color: transparent; display: none;}
+.BVPhotoUploadWidget input.BVFileSubmit {background: url(imgUpload.png) no-repeat 0 0; position: absolute; width: 350px; height: 27px; cursor: pointer; text-indent: -9999px; color: transparent; border: none; padding: 0px; color: transparent; display: block; line-height: 0px;}
+.BVPhotoUploadWidget form:hover {background-position: 0 -27px;}
+.BVPhotoUploadWidget input.BVFileSubmit:hover {background-position: 0 -27px;}
+/* Video Upload */
+.BVVideoUploadWidget form {background: url(videoBrowse.png) no-repeat 0 0; width: 350px; height: 27px; overflow: hidden;}
+.BVVideoUploadWidget input.BVFileSubmit:disabled {background: url(videoUpload.png) no-repeat 0 0; position: absolute; width: 350px; height: 27px; cursor: pointer; text-indent: -9999px; border: none; padding: 0px; color: transparent; display: none;}
+.BVVideoUploadWidget input.BVFileSubmit[disabled] {background: url(videoUpload.png) no-repeat 0 0; position: absolute; width: 350px; height: 27px; cursor: pointer; text-indent: -9999px; border: none; padding: 0px; color: transparent; display: none;}
+.BVVideoUploadWidget input.BVFileSubmit {background: url(videoUpload.png) no-repeat 0 0; position: absolute; width: 350px; height: 27px; cursor: pointer; text-indent: -9999px; color: transparent; border: none; padding: 0px; color: transparent; display: block; line-height: 0px;}
+.BVVideoUploadWidget form:hover {background-position: 0 -27px;}
+.BVVideoUploadWidget input.BVFileSubmit:hover {background-position: 0 -27px;}
