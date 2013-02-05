@@ -1,0 +1,57 @@
+/* CSS StyleSheet - FORMS */
+
+form {
+	text-align: left;
+}
+
+label {
+	font-family: Justus, Georgia, Garamond, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #009fc2;
+}
+/* style text that is entered */
+input, textarea {
+	width: 296px;
+	height: 24px;
+	border: 1px solid #afafaf;
+	font-family: Justus, Georgia, Garamond, serif;
+	font-size: 16px;
+	color: #333333;
+	padding: 12px;
+	margin-bottom: 12px;
+}
+
+textarea {
+	height: 104px;
+}
+/* disclaimer under form */
+.disclaimer {
+	width: 60%;
+	font-family: Justus, Georgia, Garamond, serif;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 12px;
+	margin: 0 0 0 8px;
+	text-indent: -8px;
+}
+
+form button {
+	width: 48px;
+	height: 48px;
+	padding: 0;
+	margin: 0 12px 0 0;
+	color: #009fc2;
+	font-family: Justus, Georgia, Garamond, serif;
+	font-size: 14px;
+	text-align: center;
+	font-style: italic;
+	font-weight: normal;
+	background: url(../images/btnSubmit.png) 0 0 no-repeat;
+	border: none;
+}
+
+form button:hover {
+	color: #e8f6f9;
+	background-position-y: -48px;
+}

@@ -1,0 +1,61 @@
+/* CSS StyleSheet - FOOTER */
+
+footer {
+	width: 100%;
+	height: 300px;
+	background: url(../images/bgTexture.jpg) repeat 0 0 #353535 ;
+	-webkit-box-shadow: inset 0 20px 100px rgba(0,0,0,0.5); /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow: inset 0 20px 100px rgba(0,0,0,0.5); /* FF3.5 - 3.6 */
+	box-shadow: inset 0 20px 100px rgba(0,0,0,0.5); /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */	
+	margin-top: 96px; /* 5 grid lines total - 4 here plus 1 from the bottom of the last section, article, or aside */ 
+}
+
+footer p, footer a, footer br, footer nav, footer span {
+	font-size: 12px;
+	line-height: 16px;
+	color: #ffffff;
+	margin: 0;
+}
+
+footer p, footer nav {
+	margin-bottom: 6px;
+}
+
+footer a {
+	margin-left: 6px;
+}
+
+footer .main a:hover {
+	color: #88d4e3;
+	text-decoration: none;
+}
+
+footer #invenio span {
+	display: block;
+	float: left;
+	clear: none;
+}
+
+footer #invenio a {
+	width: 67px;
+	height: 16px;
+	display: block;
+	float: left;
+	clear: none;
+	background: url(../images/logoInvenioFooter.png) no-repeat 0 0;
+	margin: 0 6px;
+}
+
+footer #invenio a:hover {
+	background-position-y: -16px;
+}
+
+footer .left {
+	text-align: left;
+	clear: left;
+}
+
+footer .right {
+	text-align: right;
+	clear: right;
+}

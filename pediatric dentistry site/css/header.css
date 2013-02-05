@@ -1,0 +1,71 @@
+/* CSS StyleSheet - HEADER and NAVIAGTION */
+
+header {
+	width: 100%;
+	background: url(../images/bgTexture.jpg) 0 0 repeat-x;
+	margin-bottom: 0;
+}
+
+#logoMain {
+	position: absolute;
+	top: 342px;
+	width: 144px;
+	height: 138px;
+	background-image: url(../images/logoMain.png);
+	margin-left: 24px;
+}
+
+#logoMainInner {
+	position: absolute;
+	top: 15px;
+	width: 115px;
+	height: 110px;
+	background-image: url(../images/logoMainInner.png);
+}
+
+/* NAVIGATION */
+
+#navigationMain, #navigationSecondary {
+	text-align: right;
+}
+
+#navigationMain {
+	height: 48px;
+}
+
+#navigationSecondary {
+	height: 92px;
+}
+
+#navigationMain a {
+	font-family: Raleway, Verdana, Arial, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	margin: 15px 0 0 45px;
+}
+
+#navigationMain a:hover {
+	color: #88d4e3;
+}
+
+#navigationSecondary a {
+	font-family: Justus, Georgia, Garamond, serif;
+	font-size: 16px;
+	color: #009fc2;
+	font-style: italic;
+	text-decoration: none;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	margin: 4px 0 0 45px;
+}
+
+#navigationSecondary a:hover {
+	color: #333333;
+}

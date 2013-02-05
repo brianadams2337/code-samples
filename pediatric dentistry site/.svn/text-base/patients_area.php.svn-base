@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+
+<?php include_once('includes/headerMeta.php'); ?>
+
+<body>
+<div id="containerMain">
+<?php include_once('includes/header.php'); ?>
+<hr class="lineThick" />
+<div id="contentMain" class="container">
+<article id="whatToExpect" class="main left">
+	<h2>What to Expect When Visiting the Office</h2>
+	<p>At our office, children can enjoy Books, Video Games (X-box, Nintendo DS, and PS3), Trains, Movies, and more, before and even during their appointment! Parents are welcome to accompany their children through the entire appointment as well. Thiel Pediatric Dentistry provides a relaxing atmosphere while delivering a full array of treatments for your child.</p>
+	<p>The staff at Thiel Pediatric Dentistry takes pride in providing a fun, comfortable visit for each child and their parent. We look forward to caring for your child and making sure each dental visit is a positive and pleasant experience for everyone involved.</p>
+</article>
+<?php include_once('includes/pluginNewPatients.php'); ?>
+<?php include_once('includes/slideshowPatients.php'); ?>
+<article id="firstVisit" class="main left lineTop">
+	<h2>Your Child's First Visit</h2>
+	<p>Your child’s first dental visit is usually short and simple. This visit gives your child an opportunity to meet Dr. Thiel in a non-threatening and friendly manner. We encourage parents to accompany their child during appointments as well. There may be a routine cleaning, if needed, followed by a quick examination by Dr. Thiel. The doctor will go over some basics of oral health care with you and your child, as well as any potential development issues. A fluoride treatment may be done as well. As your child grows and becomes more comfortable with our practice, we will begin to introduce both routine tooth cleaning and x-rays.</p>
+	<p>The American Academy of Pediatric Dentistry recommends a child be seen for routine examination as soon as they have their first baby tooth (around one year of age). This examination may reveal developmental problems or dental disease, which should be treated early. There is also a great deal of information to teach parents early in their child's developmental in order to maintain the best possible oral health for their child. At Thiel Pediatric Dentistry, we see children from birth up through college.</p>
+</article>
+<article id="returnVisits" class="main left">
+	<h2>Return Visits</h2>
+	<p>Most semi-annual check-ups begin with oral hygiene instruction followed by a thorough cleaning and polishing. If needed, both cavity detecting and growth development x-rays will be taken. After the hygienist thoroughly cleans and polishes your child's teeth, removing plaque and tartar, Dr. Thiel will then perform a routine examination. As recommended by the American Dental Association a topical fluoride application will be administered to help prevent decay and promote strong teeth. Dr. Thiel will provide details to the parent of any necessary or recommended treatments.</p>
+	<p>The American Academy of Pediatric Dentistry recommends a dental check-up at least twice a year for most children, although some need more frequent visits because of increased risk factors for tooth decay and unusual growth patterns.</p>
+</article>
+<?php include_once('includes/pluginTips.php'); ?>
+</div>
+<br class="clear" />
+<?php include_once('includes/footer.php'); ?>
+</div>
+</body>
+
+</html>

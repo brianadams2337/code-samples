@@ -1,0 +1,28 @@
+/* CSS StyleSheet - TESTIMONIAL BOX */
+
+#testimonialBox {
+	background: #353535 url(../images/bgTexture.jpg) 0px 0px repeat;
+	-webkit-box-shadow: inset 0px 0px 300px rgba(0,0,0,0.75); /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow: inset 0px 0px 300px rgba(0,0,0,0.75); /* FF3.5 - 3.6 */
+	box-shadow: inset 0px 0px 300px rgba(0,0,0,0.75); /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */	
+	padding: 30px;
+	margin-top: 28px;
+	text-align: center;
+}
+
+#testimonialBox blockquote {
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 36px;
+}
+
+#testimonialBox div {
+	font-size: 12px;
+	font-style: italic;
+	color: #b1c377;
+	text-align: right;
+}
+
+#testimonial h2 {
+	margin-top: 48px;
+}

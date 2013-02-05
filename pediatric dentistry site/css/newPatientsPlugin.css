@@ -1,0 +1,104 @@
+/* CSS StyleSheet - NEW PATIENTS PLUGIN */
+
+/* new patients container */
+#newPatients {
+	text-align: left;
+	background-image: url(../images/lineDottedVert.gif) repeat-y top left;
+}
+/* buttons container */
+#btnsPacket {
+	text-align: center;
+	margin: 24px;
+	font-family: Justus, Georgia, Garamond, serif;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: normal;
+}
+/* button separator text */
+#btnsPacket .center {
+	width: 80px;
+	margin: 36px 0;
+}
+/* text links in buttons */
+#btnsPacket a {
+	text-decoration: none;
+}
+/* button on left - download */
+.btnPacket.left div {
+	margin: 52px 16px 0 16px;
+}
+/* button on right - online */
+.btnPacket.right div {
+	margin: 9px 16px 48px 16px;
+}
+
+/* NEW PATIENTS BLUE */
+
+/* body format */
+#newPatientsHome h2, #newPatientsHome p {
+	margin: 0 21px 0 24px;
+}
+/* text in buttons */
+#newPatientsHome .btnPacket div {
+	font-size: 14px;
+	line-height: 18px;
+	color: #009fc2;
+}
+/* button on left - download */
+#newPatientsHome .btnPacket.left {
+	width: 96px;
+	height: 96px;
+	background: url(../images/spriteArrowBlue.png) no-repeat 0 0;
+}
+/* button on right - online */
+#newPatientsHome .btnPacket.right {
+	width: 96px;
+	height: 96px;
+	background: url(../images/spriteArrowBlue.png) no-repeat -96px 0;
+}
+/* bg on hover */
+#newPatientsHome .btnPacket:hover {
+	background-position-y: -96px;
+}
+/* font color on hover */
+#newPatientsHome .btnPacket:hover div {
+	color: #e8f6f9;
+}
+
+/* NEW PATIENTS PURPLE */
+
+/* header color */
+#newPatients h2 {
+	color: #8661a0;
+}
+/* body format */
+#newPatients h2, #newPatients p {
+	text-align: center;
+	margin: 0 6px 0 12px;
+}
+/* text in buttons */
+#newPatients .btnPacket div {
+	font-size: 14px;
+	line-height: 18px;
+	color: #8661a0;
+}
+/* button on left - download */
+#newPatients .btnPacket.left {
+	width: 96px;
+	height: 96px;
+	background: url(../images/spriteArrowPurple.png) no-repeat 0 0;
+}
+/* button on right - online */
+#newPatients .btnPacket.right {
+	width: 96px;
+	height: 96px;
+	background: url(../images/spriteArrowPurple.png) no-repeat -96px 0;
+}
+/* bg on hover */
+#newPatients .btnPacket:hover {
+	background-position-y: -96px;
+}
+/* font color on hover */
+#newPatients .btnPacket:hover div {
+	color: #f7eefd;
+}

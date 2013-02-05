@@ -1,0 +1,33 @@
+/* CSS StyleSheet - OFFICE INFO PLUGIN */
+
+/* Office Info container */
+#officeInfo {
+	margin-top: 0;
+}
+/* entire Office Info box */
+#officeInfo .sideBox {
+	background: url(../images/bgTexture.jpg) repeat 0 0 #353535;
+	-webkit-box-shadow: inset 0 0 200px rgba(0,0,0,0.75); /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow: inset 0 0 200px rgba(0,0,0,0.75); /* FF3.5 - 3.6 */
+	box-shadow: inset 0 0 200px rgba(0,0,0,0.75); /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */	
+	padding: 24px 36px 24px 36px;
+	text-align: center;
+}
+/* header in Office Info box */
+#officeInfo h3 {
+	margin-top: 0;
+	color: #B1C377;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	clear: both;
+}
+/* info in Office Info box */
+#officeInfo p, #officeInfo a {
+	color: #FFFFFF;
+}
+
+#officeInfo a:hover {
+	color: #88d4e3;
+	text-decoration: none;
+}

@@ -1,0 +1,31 @@
+/* CSS StyleSheet - OFFICE APPOINTMENTS PLUGIN */
+
+/* appointments container */
+#officeAppointments {
+	text-align: center;
+}
+/* body format */
+#officeAppointments p {
+	margin: 0 18px;
+}
+/* margins on break lines with appointments box */
+#officeAppointments .lineDotted {
+	margin-top: 48px;
+}
+/* phone number within appointments */
+#phoneNumber {
+	font-family: Raleway, Verdana, Arial, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 18px 0 0 0;
+}
+/* email within appointments */
+#eMail {
+	font-family: Justus, Georgia, Garamond, serif;
+	font-size: 16px;
+	margin-top: 8px;
+}
+/* creates spacing between sections within appointments area */
+#officeAppointments .lineDotted {
+	margin-bottom: 24px;
+}

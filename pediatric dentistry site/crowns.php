@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+
+<?php include_once('includes/headerMeta.php'); ?>
+
+<body>
+	<div id="containerMain">
+		<?php include_once('includes/header.php'); ?>
+		<div id="contentMain" class="container">
+			<hr />
+			<?php include_once('includes/subNavTreatmentsProcedures.php'); ?>
+			<article class="main full left">
+				<h2>Crowns</h2>
+				<p>A dental crown is a restorative procedure where a tooth-shaped "cap" that is placed over a tooth when a portion of the tooth is lost due to dental decay or due to trauma — it will cover your child's tooth to restore its shape, size, strength, and/or to improve its appearance.</p>
+			</article>
+			<div class="lineDotted left">&nbsp;</div>
+			<aside class="main full left">
+				<h3>Why would my child need a crown if the teeth fall out anyways?</h3>
+				<div class="columns">
+					<p>This question might come to your mind when your child is recommended for a crown. It is very important to maintain the health of the primary (baby) teeth. Neglected cavities can and frequently do lead to problems which affect developing permanent teeth. Primary teeth are important for proper chewing and eating, providing space for the permanent teeth, and guiding them into the correct position, permitting normal development of the jaw bones and muscles. Primary teeth also affect the development of speech and add to an attractive appearance. While the front 4 teeth last until 6-7 years of age, the back teeth (cuspids and molars) aren’t replaced until age 10-13.</p>
+				</div>
+			</aside>
+			<div class="lineDotted left">&nbsp;</div>
+			<aside class="main full left">
+				<h3>What type of crowns are there?</h3>
+				<div class="columns">
+					<p>Permanent crowns can be made from all metal, porcelain-fused-to-metal, all resin, or all ceramic.</p>
+					<p>Metal — these can include gold alloy, other alloys (for example, palladium) or a base-metal alloy (for example, nickel or chromium). Compared with other crown types, less tooth structure needs to be removed with metal crowns, and tooth wear to opposing teeth is kept to a minimum. Metal crowns withstand biting and chewing forces well and probably last the longest in terms of wear down. Also, metal crowns rarely chip or break. The metallic color is the main drawback. Metal crowns are a good choice for out-of-sight molars.</p>
+					<p>Porcelain-fused-to-metal — this type can be color matched to your adjacent teeth (unlike the metallic crowns). However, more wearing to the opposing teeth occurs with this crown type compared with metal or resin crowns. The crown's porcelain portion can also chip or break off. Next to all-ceramic crowns, porcelain-fused-to-metal crowns look most like normal teeth. However, sometimes the metal underlying the crown's porcelain can show through as a dark line, especially at the gum line and even more so if your gums recede. These crowns can be a good choice for front or back teeth.</p>
+					<p>All-resin — these are less expensive than other crown types. However, they wear down over time and are more prone to fractures than porcelain-fused-to-metal crowns.</p>
+					<p>All-ceramic or all-porcelain — this type provides the best natural color match than any other crown type and may be more suitable for people with metal allergies. However, they are not as strong as porcelain-fused-to-metal crowns and they wear down opposing teeth a little more than metal or resin crowns. All-ceramic crowns are a good choice for front teeth.</p>
+					<p>Temporary versus permanent. — Temporary crowns can be made in your dentist's office whereas permanent crowns are made in a dental laboratory. Temporary crowns are made of acrylic or stainless steel and can be used as a temporary restoration until a permanent crown is constructed by the dental laboratory.</p>
+				</div>
+			</aside>
+			<div class="lineDotted left">&nbsp;</div>
+			<aside class="main full left">
+				<h3>Does a crowned tooth require special care?</h3>
+				<div class="columns">
+					<p>While a crowned tooth does not require any special care, remember that simply because a tooth is crowned does not mean the underlying tooth is protected from decay or gum disease. Therefore, continue to follow good oral hygiene practices, including brushing your teeth at least twice a day and flossing once a day, especially around the crown area where the gum meets the tooth.</p>
+				</div>
+			</aside>
+		</div>
+		<br class="clear" />
+		<?php include_once('includes/footer.php'); ?>
+	</div>
+</body>
+
+</html>

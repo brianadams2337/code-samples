@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* BASELINE GRID IS SETUP IN 24PX ROWS */
+
+/* reset and set contants */
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	line-height: 24px; /* baseline grid */
+	font-family: Justus, Georgia, Garamond, serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #353535;
+}
+
+body {
+	text-align: center;
+	width: 100%;
+}
+#containerMain {
+	width: 100%;
+	min-width: 1024px;
+	height: 100%;
+	background-image: url(../images/bgBubbles.png);
+	background-repeat: no-repeat;
+	background-position: 90% 100%;
+	margin: 0px auto;
+}
+/* 1 grid line on both top and bottom of each main element */
+section, article, aside {
+	margin: 24px 0px;
+}
+.container {
+	width: 960px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+/* smaller content area 1/3 */
+.supporting {
+	width: 320px;
+	clear: none;
+	vertical-align: top;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+}
+/* larger content area 2/3 */
+.main {
+	width: 640px;
+	display: block;
+}
+/* larger content area 3/3 */
+.main.full {
+	width: 960px;
+	display: block;
+}
+/* remove margin on bottom of images in IE */
+img {
+	display: inline;
+}
+/* add one grid line spacing on top */
+.drop {
+	margin-top: 24px;
+}
+/* set item left */
+.left {
+	float: left;
+}
+/* set item right */
+.right {
+	float: right;
+}
+/* clear left */
+.clear {
+	clear: both;
+}
+/* hide text */
+.hidden {
+	text-indent: -9999px;
+}
+/* dotted line to be used as a break */
+.lineDotted {
+	width: 100%;
+	height: 1px;
+	background-image: url(../images/lineDotted.gif);
+	background-repeat: repeat-x;
+	margin: 0px;
+}
+/* apply line to top of section - used when dotted line in not need as a break */
+.lineTop {
+	background: url(../images/lineDotted.gif) 0px 0px repeat-x;
+	padding-top: 24px;
+	margin-top: 0px;
+}
+/* thick line used between header and content */
+.lineThick {
+	width: 960px;
+	height: 4px;
+	background-color: #333333;
+	margin: 0px auto 24px auto;
+}
+
+/* GENERAL TYPOGRAPHY */
+
+/* load Raleway font */
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway_thin-webfont.eot');
+    src: url('../fonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway_thin-webfont.woff') format('woff'),
+         url('../fonts/raleway_thin-webfont.ttf') format('truetype'),
+         url('../fonts/raleway_thin-webfont.svg#RalewayThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* load Justus font */
+@font-face {
+    font-family: 'Justus';
+    src: url('../fonts/justus-roman-webfont.eot');
+    src: url('../fonts/justus-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/justus-roman-webfont.woff') format('woff'),
+         url('../fonts/justus-roman-webfont.ttf') format('truetype'),
+         url('../fonts/justus-roman-webfont.svg#JustusRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* main headings */
+h2 {
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #009fc2;
+}
+/* sub headings */
+h3 {
+	font-size: 18px;
+	font-style: italic;
+	color: #009fc2;
+}
+/* subheadings on directions page */
+h3.directions {
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	color: #353535;
+}
+/* heading on lists */
+h3.list {
+	font-size: 16px;
+	font-style: normal;
+	color: #009FC2;
+}
+/* text links within body copy */
+.main a {
+	text-decoration: underline;
+}
+.main a:hover {
+	color: #009FC2;
+	text-decoration: none;
+}
+/* list styling */
+.main ul {
+	margin-left: 24px;
+}
+/* text links within lists */
+.main ul a {
+	text-decoration: none;
+}
+.main ul a:hover {
+	color: #009FC2;
+	text-decoration: none;
+}
+/* apply spacing to the bottom of paragraphs */
+p , .main ul{
+	margin-bottom: 24px;
+}
+/* apply spacing to the right side of left aligned content */
+.main.left p, .main.left ul, .main.left h1, .main.left h2, .main.left h3, .main.left h4, .main.left h5 {
+	padding-right: 24px;
+}
+/* apply spacing to the left side of right aligned content */
+.main.right p, .main.right ul, .main.right h1, .main.right h2, .main.right h3, .main.right h4, .main.right h5 {
+	padding-left: 24px
+}
+/* center item */
+.center {
+	text-align: center;
+}

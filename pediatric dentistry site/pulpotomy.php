@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+
+<?php include_once('includes/headerMeta.php'); ?>
+
+<body>
+	<div id="containerMain">
+		<?php include_once('includes/header.php'); ?>
+		<div id="contentMain" class="container">
+			<hr />
+			<?php include_once('includes/subNavTreatmentsProcedures.php'); ?>
+			<article class="main full left">
+				<h2>Pulpotomy</h2>
+				<p>This procedure removes part of an infected or irritated portion of the nerve and blood vessels within your child's tooth. A sedative material is placed to help allow the remaining nerve and blood vessel tissue to heal while a restorative material such as a crown is placed over the tooth for strength.</p>
+			</article>
+			<div class="lineDotted left">&nbsp;</div>
+			<aside class="main full left">
+				<h3>When would my child need a pulpotomy?</h3>
+				<div class="columns">
+					<p>Even though a vital pulpotomy can be done for adults, it is usually used for children. In particular, this procedure is used on primary (baby) teeth, as well as young adult teeth that have not finished maturing. As long as the tooth is not loose, and there are no signs of gum infection, your Dr. Thiel should be able to perform this procedure.</p>
+					<p>As you may be aware, early loss of primary teeth can affect the way permanent teeth develop and grow in. Therefore, if your child has cavities that extend into the primary tooth pulp, Dr. Thiel may use a vital pulpotomy to prevent nerve and root death. In addition, if young adult teeth break, or the pulp is exposed, a vital pulpotomy may be necessary to prevent infection that could extend to your child'd gums and surrounding teeth.</p>
+				</div>
+			</aside>
+			<div class="lineDotted left">&nbsp;</div>
+			<aside class="main full left">
+				<h3>Should I have any post-surgery concerns?</h3>
+				<div class="columns">
+					<p>Typically, a vital pulpotomy will save the tooth in question almost 95% of the time. As long as the the nerve is not infected, the tooth and surrounding tissue will recover with a minimal amount of difficulty. Unfortunately, if the root is just starting to become infected, it may not be possible to find out at the time of the procedure. In these cases, a root canal may be required later on.</p>
+					<p>While most children do not have issues with vital pulpotomy procedures, the medications used can irritate their gums and other tissues. This may create a burning sensation that should subside in a short period of time. In most cases, over the counter pain relievers will be adequate for pain management.</p>
+					<p>For the most part, this treatment is well tolerated. That said, your child may experience some soreness and pain in the area where the vital pulpotomy was performed. As with any surgical procedure, there is always a risk of infection or other complications. Therefore, if pain gets worse after the procedure, or you notice swelling, it is best to call our office, and make sure the issue gets resolved as quickly as possible.</p>
+				</div>
+			</aside>
+		</div>
+		<br class="clear" />
+		<?php include_once('includes/footer.php'); ?>
+	</div>
+</body>
+
+</html>

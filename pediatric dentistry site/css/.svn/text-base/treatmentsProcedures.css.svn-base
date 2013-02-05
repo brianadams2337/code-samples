@@ -1,0 +1,45 @@
+/* CSS StyleSheet - TREATMENTS AND PROCEDURES */
+
+#subNavTreatmentsProcedures {
+	width: 960px;
+	height: 168px;
+	background: #353535 url(../images/bgTexture.jpg) 0px 0px repeat;
+	-webkit-box-shadow: inset 0px 0px 100px rgba(0,0,0,0.75); /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow: inset 0px 0px 100px rgba(0,0,0,0.75); /* FF3.5 - 3.6 */
+	box-shadow: inset 0px 0px 100px rgba(0,0,0,0.75); /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */	
+	padding-top: 24px;
+	margin-bottom: 24px;
+}
+/* column containers in navigation */
+.subNavColumn {
+	width: 210px;
+	height: 144px;
+	margin-left: 15px;
+	padding-right: 14px;
+	border-right: 1px dotted #fff;
+	float: left;
+	clear: none;
+}
+/* remove border from last column */
+.subNavColumn.last {
+	border-right: none;
+}
+
+#subNavTreatmentsProcedures h2 {
+	color: #b1c377;
+	font-size: 18px;
+	white-space: nowrap;
+}
+
+#subNavTreatmentsProcedures li {
+	list-style: none;
+}
+
+#subNavTreatmentsProcedures a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#subNavTreatmentsProcedures a:hover {
+	color: #88d4e3;
+}

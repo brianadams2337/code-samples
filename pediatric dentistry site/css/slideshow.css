@@ -1,0 +1,49 @@
+/* CSS StyleSheet - SLIDESHOW */
+
+/* size of slideshow */
+#slideshowHome, #slideshowPatients {
+	height: 408px;
+}
+/* extra space atop slideshow on home page */
+#slideshowHome {
+	margin-top: 48px;
+}
+/* extra space on top and bottom of slideshow on patients page */
+#slideshowPatients {
+	margin: 24px 0 48px 0;
+}
+/* must be absolute for slidewhow to function properly */
+#slideshowHome img, #slideshowPatients img {
+	position: absolute;
+	display: block;
+}
+/* text area in slideshow */
+#slideshowCaption {
+	position: relative;
+	top: 360px; /* height of slideshow minus line height of p tag and padding of container */
+	width: 940px;
+	padding: 10px;
+	background: rgb(0,0,0);
+	background-color: transparent;
+	background-color: rgba(0,0,0,0.5);  /* FF3+, Saf3+, Opera 10.10+, Chrome, IE9 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000); /* IE6–IE9 */
+	zoom: 1;
+}
+/* text in slideshow on home page */
+#slideshowHome p {
+	font-size: 28px;
+	line-height: 28px;
+	font-weight: normal;
+	font-style: italic;
+	text-align: right;
+	color: #FFFFFF;
+}
+/* text in slideshow on patients page */
+#slideshowPatients p {
+	font-size: 28px;
+	line-height: 28px;
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+	color: #FFFFFF;
+}

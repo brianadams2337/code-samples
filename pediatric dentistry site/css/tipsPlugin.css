@@ -1,0 +1,100 @@
+/* CSS StyleSheet - TIPS BOX */
+
+/* container of Tips box */
+#tips {
+	margin-top: 0;
+}
+/* entire Tips box */
+#tips .sideBox {
+	background: url(../images/bgTexture.jpg) repeat 0 0 #353535;
+	-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,0.75); /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow: inset 0 0 100px rgba(0,0,0,0.75); /* FF3.5 - 3.6 */
+	box-shadow: inset 0 0 100px rgba(0,0,0,0.75); /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */	
+	padding: 24px 36px;
+	text-align: center;
+}
+/* header of Tips box */
+#tips h2 {
+	margin-top: 0;
+	color: #b1c377;
+}
+/* question in Tips box */
+#tips h3 {
+	margin-top: 0;
+	color: #b1c377;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	clear: both;
+}
+/* answer to question in Tips box */
+#tips p {
+	color: #FFFFFF;
+}
+/* container for controls buttons of Tips box */
+#btnsTips {
+	width: 170px;
+	height: 24px;
+	color: #FFFFFF;
+	margin: 6px auto 18px;
+}
+/* individual control button of Tips box */
+.btnTip {
+	width: 24px;
+	height: 24px;
+	color: #353535;
+	text-decoration: none;
+	cursor: pointer;
+}
+/* previous control button of Tips box */
+.btnTip.left {
+	background: url(../images/sprite-arrows-small-lr.png) no-repeat 0 0;
+}
+.btnTip.left:hover {
+	background-position: 0 -24px;
+}
+/* next control button of Tips box */
+.btnTip.right {
+	background: url(../images/sprite-arrows-small-lr.png) no-repeat -24px 0;
+}
+.btnTip.right:hover {
+	background-position: -24px -24px;
+}
+/* tip number of Tips box */
+#btnsTips .center {
+	width: 122px; /* width of container minus width of 2 control buttons */
+	float: left;
+	color: #ffffff;
+	font-style: italic;
+}
+/* numbered placeholder in Tips box */
+#tipCurrent, #tipsTotal{
+	color: #FFFFFF;
+}
+/* individual tip container */
+.tip {
+	width: 248px;
+	display: none;
+}
+/* displays current tip */
+.tip.current {
+	display: block;
+}
+/* info undderneath tips box */
+#tips .disclaimer {
+	width: auto;
+	margin: 12px;
+	color: #353535;
+	text-indent: 0;
+}
+/* email link under tips box */
+#tips .disclaimer a {
+	font-size: 12px;
+	line-height: 12px;
+	color: #353535;
+	text-decoration: underline;
+}
+#tips .disclaimer a:hover {
+	color: #009FC2;
+	text-decoration: none;
+}
